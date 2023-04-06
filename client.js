@@ -52,8 +52,15 @@ console.log(Numbers);
 let oddNumbers =[];
 let evenNumbers = [];
 for (let i = 0; i < Numbers.length; i++) {
-    console.log(number);
+    if ((Numbers[i] % 2) != 1)
+    evens.push(Numbers[i]);
+    console.log(evenNumbers);
 }
+else {
+    odd.push(Numbers[i]);
+    console.log(oddNumbers);
+}
+
 
     //console.log;g
 // Example output
